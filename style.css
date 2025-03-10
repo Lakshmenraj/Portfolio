@@ -162,7 +162,7 @@ section {
 #socials-container {
   display: flex;
   justify-content: center;
-  margin-top: 1 rem;
+  margin-top: 1rem;
   gap: 1rem;
 }
 /* ICONS */
@@ -175,6 +175,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  margin-bottom: 1rem;
 }
 .btn {
   font-weight: 600;
@@ -214,12 +215,13 @@ section {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
-.about-details-container {
+.about-details-containers {
   justify-content: center;
   flex-direction: column;
 }
+
 .about-containers,
-.about-details-container {
+.about-details-containers {
   display: flex;
 }
 .about-pic {
